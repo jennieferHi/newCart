@@ -1,0 +1,113 @@
+.login,
+.rigister,
+.forget {
+  border: 1px solid grey;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url('https://images.pexels.com/photos/6984650/pexels-photo-6984650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')
+      center;
+  background-size: cover;
+
+  .wrapper {
+    width: 25%;
+    padding: 20px;
+    background-color: white;
+  }
+
+  title {
+    font-size: 24px;
+    font-weight: 300;
+  }
+
+  input {
+    flex: 1;
+    min-width: 300px;
+    margin: 5px 0;
+    padding: 10px;
+  }
+}
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 60px solid rgba(255, 59, 59, 0.648);
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+.forget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 60px solid rgba(117, 240, 179, 0.648);
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flexend;
+    align-items: center;
+    span {
+      color: red;
+      align-self: flex-start;
+      text-align: start;
+    }
+
+    button {
+      font-weight: 700;
+      font-size: 17px;
+      color: rgb(3, 19, 66);
+      align-self: flex-end;
+      background-color: transparent;
+    }
+  }
+}
+.rigister {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 60px solid rgba(255, 170, 59, 0.648);
+  form {
+    background-color: rgba(255, 255, 255, 0.546);
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    div {
+      max-width: 800px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin: 20px;
+      text-align: center;
+      input {
+        width: 50%;
+        margin: 3px;
+      }
+      span {
+        max-width: 300px;
+        width: 50%;
+        font-weight: 800;
+        color: red;
+      }
+      button {
+        text-align: center;
+        margin-top: 20px;
+      }
+    }
+  }
+  .back {
+    font-weight: 800;
+    padding: 2px;
+    background-color: white;
+  }
+}

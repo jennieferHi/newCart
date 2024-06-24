@@ -1,0 +1,10 @@
+ npm i babel-preset-next 
+   npm install --save -D babel-plugin-styled-components
+   https://ithelp.ithome.com.tw/articles/10201818 
+   ===================================
+https://nextjs.org/docs/architecture/nextjs-compiler
+https://swc.rs/
+
+npm install framer-motion
+
+npm install eslint-plugin-react@latest --save-dev
